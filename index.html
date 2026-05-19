@@ -273,6 +273,58 @@
   max-height:220px;
   border:1px solid rgba(255,255,255,.08);
 }
+  @media (max-width: 900px){
+
+  body{
+    overflow:auto;
+    height:auto;
+  }
+
+  #layout{
+    display:flex;
+    flex-direction:column;
+    height:auto;
+  }
+
+  #map{
+    width:100%;
+    height:45vh;
+  }
+
+  #panel{
+    width:100%;
+    height:auto;
+    border-left:none;
+    border-top:1px solid var(--borde);
+  }
+
+  #panel-body{
+    overflow:visible;
+  }
+
+  .card{
+    padding-bottom:20px;
+  }
+
+  .card-titulo{
+    font-size:1.2rem;
+  }
+
+  .card-desc{
+    font-size:.95rem;
+    line-height:1.6;
+  }
+
+  #header{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  #header-authors{
+    text-align:left;
+  }
+
+}
 </style>
 </head>
 <body>
